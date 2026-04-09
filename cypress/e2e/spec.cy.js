@@ -1,9 +1,5 @@
 import { SelectablePage } from '../pageObjects/selectablePage';
 
-Cypress.on("uncaught:exception", (err, runnable) => {
-  return false;
-});
-
 describe('test-site scenarios', () => {
 
     it('GridView', () => {
